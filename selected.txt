@@ -1,0 +1,56 @@
+LINK: link to the repository / https://github.com/japeka/cybersecuritybase2024_project1
+
+installation instructions if needed
+
+**2017 OWASP Top 10 List used for this
+
+
+FLAW 1:
+exact source link pinpointing flaw 1...
+description of flaw 1...
+how to fix it...
+**1 - A01:2017-Injection : https://owasp.org/www-project-top-ten/2017/A1_2017-Injection
+
+**desc
+Almost any source of data can be an injection vector, environment variables, parameters, 
+external and internal web services, and all types of users. Injection flaws occur when an 
+attacker can send hostile data to an interpreter.
+
+**example
+Scenario #1: An application uses untrusted data in the construction of the following vulnerable SQL call:
+String query = "SELECT * FROM accounts WHERE custID='" + request.getParameter("id") + "'";
+
+**example
+Query HQLQuery = session.createQuery("FROM accounts WHERE custID='" + request.getParameter("id") + "'");
+http://example.com/app/accountView?id=' or '1'='1
+
+
+FLAW 2:
+exact source link pinpointing flaw 2...
+description of flaw 2...
+how to fix it...
+**2 - A05:2017-Broken Access Control : https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control
+
+
+FLAW 3:
+exact source link pinpointing flaw 3...
+description of flaw 3...
+how to fix it...
+**3 - A07:2017-Cross-Site Scripting (XSS) : https://owasp.org/www-project-top-ten/2017/A7_2017-Cross-Site_Scripting_(XSS)
+
+FLAW 4:
+exact source link pinpointing flaw 4...
+description of flaw 4...
+how to fix it...
+**4 - A02:2017-Broken Authentication : https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication
+
+
+FLAW 5:
+exact source link pinpointing flaw 5...
+description of flaw 5...
+how to fix it...
+**5 - A08:2017-Insecure Deserialization : https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization
+
+
+
+
